@@ -1,2 +1,2 @@
+libgeos++-dev
 libproj-dev
-libgeos-dev
