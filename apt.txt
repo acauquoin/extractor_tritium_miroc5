@@ -1,1 +1,1 @@
-libgeos-dev
+geos=3.10
