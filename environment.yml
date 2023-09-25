@@ -2,6 +2,7 @@ name: binder_env
 channels:
   - conda-forge
 dependencies:
+  - python=3.11.0
   - cartopy=0.21.1
   - pip
   - pip:
