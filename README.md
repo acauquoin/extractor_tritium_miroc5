@@ -11,7 +11,7 @@ To open and run this notebook in the Binder server, where the required environme
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/acauquoin/extractor_tritium_miroc5/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Facauquoin%252Fextractor_tritium_miroc5%26urlpath%3Dlab%252Ftree%252Fextractor_tritium_miroc5%252Fextract_miroc5-iso_data_xarray.ipynb%26branch%3Dmain)
 
 
-### Running, plot and extract data
+## Running, plot and extract data
 
 If the Binder environment is already built and initialized (i.e. if no changes are made to the GitHub repository and if it is run frequently by other users), the launch time should not exceed 30 seconds.
 
@@ -23,7 +23,7 @@ Once executed, you can interactively extract and plot MIROC5-iso data for a spec
 </p>
 
 
-### About the Jupyter Lab application
+## About the Jupyter Lab application
 
 The left sidebar shows the file browser, open tabs and running kernels, notebook table of contents and notebook extensions.
 <p>
@@ -32,7 +32,7 @@ The left sidebar shows the file browser, open tabs and running kernels, notebook
 
 From the file browser panel, it is possible to view and download the saved notebook, MIROC5-iso data and figures.
 <p>
-  <img width="520" alt="file_browser_section" src="https://github.com/acauquoin/extractor_tritium_miroc5/assets/138624311/1ee41a36-c68b-47e0-a50f-04c987e00204">
+  <img width="600" alt="file_browser_section" src=https://github.com/acauquoin/extractor_tritium_miroc5/assets/138624311/e3c7ee54-eaf2-4420-8be6-eafc4dbc482f">
 </p>
 
 Open tabs and running kernels, as well as the notebook's table of contents :
@@ -44,8 +44,21 @@ Open tabs and running kernels, as well as the notebook's table of contents :
 If you're not interested in the Python code, you can reduce it for greater clarity by selecting `View > Collapse All Code` from the menu.
 
 
-### Reproducibility
+## Reproducibility
 
 MIROC5-iso data can be downloaded directly as NetCDF files from a public repository (Zenodo, to be done). 
-The notebook and the packages needed to run it locally (`environment.yml`) can be downloaded via this GitHub repository. The packages' version can also be viewed in the notebook <b>Packages version</b> section. To install python and the required packages locally, use `conda` on the `environment.yml` file: [https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+The notebook and the packages needed to run it locally can be downloaded via this GitHub repository (`binder/environment.yml`). The packages' version can also be viewed in the notebook <b>Packages version</b> section. To install python and the required packages locally, use `conda` on the `binder/environment.yml` file: [https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+
+
+## Data Availability Statement
+
+The code of the isotopic version MIROC5-iso is available upon request on the Institute of Industrial Science's [GitLab](http://isotope.iis.u-tokyo.ac.jp:8000/gitlab/miroc-iso/miroc5-iso) repository (Okazaki & Yoshimura, 2019). The source code for tritium  modeling has been made by Alexandre Cauquoin and is available in the tritium branch of the MIROC5-iso GitLab repository (Cauquoin et al., under review). 
+The contents of this GitHub repository as well as the MIROC5-iso data downloaded and extracted thanks to the Jupyter Notebook or the Zenodo public repository are distributed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+
+## References
+
+Okazaki, A., and Yoshimura, K.: Global evaluation of proxy system models for stable water isotopes with realistic atmospheric forcing, <i>Journal of Geophysical Research: Atmospheres</i>, <b>124</b>, 8972–8993, [https://doi.org/10.1029/2018JD029463](https://doi.org/10.1029/2018JD029463), 2019.
+
+Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., and Yoshimura, K.: Modeling natural tritium in precipitation and its dependence on decadal variations of solar activity using the atmospheric general circulation model MIROC5-iso, <i>Journal of Geophysical Research: Atmospheres</i>, under review.
 
