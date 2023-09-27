@@ -8,7 +8,7 @@ Jupyter notebook to plot and extract data at a specific location and time range 
 
 To open and run this notebook in the Binder server, where the required environment and packages are installed automatically, click on the badge below. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/acauquoin/extractor_tritium_miroc5/main?labpath=extract_miroc5-iso_data_xarray.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/acauquoin/extractor_tritium_miroc5/main?labpath=extract_miroc5-iso_data_xarray.ipynb](https://mybinder.org/v2/gh/acauquoin/extractor_tritium_miroc5/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Facauquoin%252Fextractor_tritium_miroc5%26urlpath%3Dlab%252Ftree%252Fextractor_tritium_miroc5%252Fextract_miroc5-iso_data_xarray.ipynb%26branch%3Dmain))
 
 
 ### Running, plot and extract data
