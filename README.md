@@ -3,7 +3,7 @@
 Jupyter notebook to plot and extract data at a specific location and time range from MIROC5-iso simulations. Simulations nudged to ERA5 and JRA-55 are available.
 
 - The mean tritium in precipitation map can be plotted for a specified area and time period. The map can be downloaded as a pdf file.
-- Time series of tritium and $\delta^{18}O$ in precipitation, precipitation rate and air temperature at 2 m can be plotted for a specified location and time interval. The data can be downloaded as a CSV file, and the figure can be downloaded as a pdf file.
+- Time series of tritium and $\delta^{18}O$ and d-excess in precipitation, precipitation rate, evaporation, and air temperature at 2 m can be plotted for a specified location and time interval. The data can be downloaded as a CSV file, and the figure can be downloaded as a pdf file.
 - The map of vertically integrated water vapor transport can be plotted for a given area and month. The figure can be downloaded as a pdf file.
 
 To open and run this notebook in the Binder server, where the required environment and packages are installed automatically, click on the badge below. 
