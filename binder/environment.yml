@@ -11,8 +11,8 @@ dependencies:
   - ipywidgets==8.1.6
   - matplotlib==3.9.4
   - watermark==2.5.0
-  - wget==3.2
+  - python-wget==3.2
   - pip
   - pip:
     - nbgitpuller
-    - solara==1.39.0
+    - solara==1.45.0
