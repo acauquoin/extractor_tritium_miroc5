@@ -60,5 +60,7 @@ The contents of this GitHub repository as well as the MIROC5-iso data downloaded
 
 Okazaki, A., and Yoshimura, K.: Global evaluation of proxy system models for stable water isotopes with realistic atmospheric forcing, <i>Journal of Geophysical Research: Atmospheres</i>, <b>124</b>, 8972–8993, [https://doi.org/10.1029/2018JD029463](https://doi.org/10.1029/2018JD029463), 2019.
 
-Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., and Yoshimura, K.: Modeling natural tritium in precipitation and its dependence on decadal variations of solar activity using the atmospheric general circulation model MIROC5-iso, <i>Journal of Geophysical Research: Atmospheres</i>, under review.
+Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., and Yoshimura, K.: Modeling natural tritium in precipitation and its dependence on decadal variations of solar activity using the atmospheric general circulation model MIROC5-iso, <i>J. Geophys. Res. Atmos.</i>, <b>129</b>, e2023JD039745, [doi:10.1029/2023JD039745](https://doi.org/10.1029/2023JD039745), 2024
+
+Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., & Yoshimura, K. (2023). Cosmogenic tritium data modeled by MIROC5-iso (Dataset). Zenodo. https://doi.org/10.5281/zenodo.10223858.
 
