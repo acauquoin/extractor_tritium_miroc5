@@ -46,13 +46,13 @@ If you're not interested in the Python code, you can reduce it for greater clari
 
 ## Reproducibility
 
-MIROC5-iso data can be downloaded directly as NetCDF files from a public repository (Zenodo, to be done). 
-The notebook and the packages needed to run it locally can be downloaded via this GitHub repository (`binder/environment.yml`). The packages' version can also be viewed in the notebook <b>Packages version</b> section. To install python and the required packages locally, use `conda` on the `binder/environment.yml` file: [https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+MIROC5-iso data can be downloaded directly as NetCDF files from a public repository at https://doi.org/10.5281/zenodo.18502735. 
+The notebook and the packages needed to run the former locally can be downloaded via this GitHub repository (`binder/environment.yml`). The packages' version can also be viewed in the notebook <b>Packages version</b> section. To install python and the required packages locally, use `conda` on the `binder/environment.yml` file: [https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
 
 
 ## Data Availability Statement
 
-The code of the isotopic version MIROC5-iso is available upon request on the Institute of Industrial Science's [GitLab](http://isotope.iis.u-tokyo.ac.jp:8000/gitlab/miroc-iso/miroc5-iso) repository (Okazaki & Yoshimura, 2019). The source code for tritium  modeling has been made by Alexandre Cauquoin and is available in the tritium branch of the MIROC5-iso GitLab repository (Cauquoin et al., under review). 
+The code of the isotopic version MIROC5-iso is available upon request on the private GitHub repository at https://github.com/yoshimura-laboratory/MIROC5-iso (Okazaki & Yoshimura, 2019). The source code for tritium modeling has been made by Alexandre Cauquoin and is available in the tritium branch of the MIROC5-iso GitLab repository (Cauquoin et al., 2024). 
 The contents of this GitHub repository as well as the MIROC5-iso data downloaded and extracted thanks to the Jupyter Notebook or the Zenodo public repository are distributed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
 
@@ -63,4 +63,12 @@ Okazaki, A., and Yoshimura, K.: Global evaluation of proxy system models for sta
 Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., and Yoshimura, K.: Modeling natural tritium in precipitation and its dependence on decadal variations of solar activity using the atmospheric general circulation model MIROC5-iso, <i>J. Geophys. Res. Atmos.</i>, <b>129</b>, e2023JD039745, [doi:10.1029/2023JD039745](https://doi.org/10.1029/2023JD039745), 2024
 
 Cauquoin, A., Fourré, É., Landais, A., Okazaki, A., & Yoshimura, K. (2023). Cosmogenic tritium data modeled by MIROC5-iso (Dataset). Zenodo. https://doi.org/10.5281/zenodo.10223858.
+
+Cauquoin, A., Gusyev, M., Bong, H., Okazaki, A., and Yoshimura, K.: Modeling tritium release to the atmosphere during the Fukushima Daiichi Nuclear Power Plant accident and application to estimating post-accident water system transit times, <i>Environ. Sci. Pollut. Res.</i>, <b>32</b>, 3649–3663, [doi:10.1007/s11356-025-35919-1](https://doi.org/10.1007/s11356-025-35919-1), 2025.
+
+Cauquoin, A., Gusyev, M., Bong, H., Okazaki, A., and Yoshimura, K. (2024). Modeled tritium in precipitation from Fukushima Daiichi Nuclear Power Plant accident simulations with MIROC5-iso (Dataset). Zenodo. https://doi.org/10.5281/zenodo.14020821.
+
+Palcsu, L., László, E., Surányi, G., Túri, M., Vargas, D., Veres, M., Cauquoin, A., Zákány, L., Janovics, R., Csige, I., and Temovski, M.: Solar cycle detected in natural tritium of Ice layers before the nuclear era. <i>J. Geophys. Res. Atmos.</i>, <b>130</b>, e2024JD042678, [doi:10.1029/2024JD042678](https://doi.org/10.1029/2024JD042678), 2025.
+
+Cauquoin, A. (2026). Modeled tritium data from the year 1952 with MIROC5-iso (Dataset). Zenodo. https://doi.org/10.5281/zenodo.18502735.
 
